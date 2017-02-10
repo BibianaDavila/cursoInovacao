@@ -1,0 +1,816 @@
+/*=== Fontes ======================*/
+@font-face {
+    font-family: Lato;
+    src: url('../font/Lato-Regular.ttf');
+}
+@font-face {
+    font-family: Lato Light;
+    src: url('../font/Lato-Light.ttf');
+}
+@font-face {
+    font-family: Lato Black;
+    src: url('../font/Lato-Black.ttf');
+}
+
+/*======= geral! =======*/
+body{
+	overflow-x: hidden;
+	font-family: Lato;
+	font-size: 14px;
+	color: grey;
+	background-color: white;
+}
+.site-wrapper{
+	max-width: 2000px;
+	min-height: 100%;
+	margin: auto;
+	box-shadow: 0px 5px 13px grey;
+}
+.bold{
+	font-family: 'Lato Black';
+}
+.light{
+	font-family: 'Lato Light';
+}
+a, a:hover, a:link{color: #006b50;}
+
+/*======= páginas! =======*/
+#home{
+	background-image: url('../image/bg/home.png');
+}
+#div-1{
+	background-image: url('../image/bg/mod1.png');
+}
+#div-2{
+	background-image: url('../image/bg/mod2.png');
+}
+#div-3{
+	background-image: url('../image/bg/mod3.png');
+}
+#div-4{
+	background-image: url('../image/bg/mod4.png');
+}
+section{
+	position: relative;
+	height: 1195px;
+}
+section.invert{
+	height: 1800px;
+}
+article{
+	background-size: auto 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 1195px;
+}
+.container-inner{
+	width: 1450px;
+	margin: auto;
+}
+/*=== HOME! ===========================*//*=== Logo ====*/
+.logo img{
+	width: 75%;
+	height: auto;
+	margin: 50px 0px 0px 35px;
+}
+
+/*=== Título ===*/
+.title-wrapper{
+	position: absolute;
+    left: 50%;
+    transform: translate(-50%, 25%);
+    color: white;
+    font-family: 'Lato Light';
+    font-size: 30px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    line-height: 55px;
+}
+.title-wrapper .bigger{
+	font-size: 52px;
+	letter-spacing: 15px;
+}
+.title-wrapper .e{
+	padding-right: 67px;
+}
+.title-wrapper .criativas{
+	padding-left: 75px;
+}
+.title-wrapper .em{
+	display: inline-block;
+	top: -14px;
+	position: relative;
+	padding: 0px 28px 0px 70px;
+}
+.line-height{
+	height: 330px;
+	width: 100%;
+}
+/*=== descricao do curso ===*/
+.desc-wrapper{
+	margin-left: 35px;
+	margin-top: 0px;
+	font-size: 16px;
+	color: white;
+	text-align: justify;
+}
+/*=== Inscrições ===*/
+.insc-wrapper{
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 190px;	
+	font-size: 18px;
+	letter-spacing: 2px;
+}
+
+/*=== Público Alvo ===*/
+.publico-wrapper{
+	margin-top: 145px;
+	font-size: 18px;
+}
+.publico-wrapper .content{
+	padding-bottom: 5px;
+	font-family: 'Lato Light';
+}
+/*=== Horários ===*/
+.horarios-wrapper{
+	font-size: 18px;
+	margin-top: 32px;
+}
+.horarios-wrapper .content{
+	padding-bottom: 3px;
+	font-family: 'Lato Light';
+}
+.horarios-wrapper .content.horas{
+	font-size: 50px;
+	line-height: 50px;
+}
+.horarios-wrapper .content.semanas{
+	font-size: 25px;
+	line-height: 26px;
+}
+.horarios-wrapper .divider{
+	border-bottom: 3px solid grey;
+	width: 80%;
+	margin: 15px auto;
+}
+/*======= FIM HOME! ====*/
+/*======= Módulos ===========================*/
+.mod-wrapper{
+	text-align: justify;
+	font-size: 14px;
+	margin-top: -165px;
+}
+.mod-wrapper.invert{
+	margin-top: -990px;
+	margin-left: 60px;
+}
+.mod-wrapper.after-invert{
+	margin-top: -230px;
+	margin-left: 60px;
+}
+.mod-wrapper .divider{
+	border-bottom: 3px solid grey;
+	width: 70%;
+	margin: 30px auto;
+}
+.mod-titulo{
+	font-family: 'Lato Light';
+	font-size: 45px;
+	line-height: 46px;
+	text-align: left;
+}
+
+/*=== Quadro Horas ===*/
+.quadro-wrapper{
+	position: absolute;
+	right: 0px;
+}
+.quadro-horas-img{
+	position: absolute;
+	right: 0px;
+	width: 225px;
+	height: 355px;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-image: url('../image/icones/quadro_horas.png');
+}
+.quadro-horas-txt{	
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    text-align: right;
+    padding-right: 35px;
+}
+.quadro-horas-txt .horas{
+    font-size: 60px;
+    font-family: 'Lato Light';
+    line-height: 60px;
+}
+.quadro-horas-txt .legenda{
+    font-size: 10.5px;
+    line-height: 7px;
+}
+/* invert */
+.invert.quadro-wrapper{
+	position: absolute;
+	right: auto;
+	left: 0px;
+	margin-top: -560px;
+}
+.quadro-wrapper.invert .quadro-horas-img{
+	background-image: url('../image/icones/quadro_horas_invert.png');
+	right: auto;
+	left: 0px;
+}
+.quadro-wrapper.invert .quadro-horas-txt{
+	text-align: left;
+	padding-right: 0px;
+	padding-left: 35px;
+}
+/* after invert */
+.after .quadro-horas-img{
+	margin-top: -340px;
+}	
+/*=== Datas ===*/
+.datas-wrapper{
+	font-family: 'Lato Light';
+	font-size: 60px;
+	margin-top: 250px;
+	color: white;
+	line-height: 65px;
+	margin-left: 50px;
+}
+.datas-wrapper.invert{
+	text-align: right;
+	margin-top: -1070px;
+	margin-right: 50px;
+}
+
+.datas-wrapper.after-invert{
+	text-align: right;
+	margin-top: 260px;
+	margin-right: 50px;
+}
+/*=== Realizadores =======================*/
+.realizador-images{
+	text-align: center;
+	padding: 60px 0px;
+	width: 100%;
+	margin-top: -150px;
+}
+.realizador-images img{
+	height: 70px;
+	margin: 25px;
+}
+/*====================== Responsivo ===========================*/
+@media only screen and (max-width: 1499px){
+	.container-inner{
+		width: 1150px;
+	}
+	section, article{
+		height: 890px;
+	}
+	section.invert{
+		height: 1350px;
+	}
+	/*=== home! ===*/
+	.logo img{
+		margin: 30px 10px;
+	}
+
+	/* titulo */
+	.title-wrapper{
+		transform: translate(-50%, 7%);
+		line-height: 43px;
+		font-size: 24px;
+		letter-spacing: 5px;
+	}
+	.title-wrapper .bigger{
+		font-size: 38px;
+		letter-spacing: 8px;
+	}
+	.title-wrapper .em{
+		padding: 0px 28px 0px 66px;
+	}
+	.line-height{
+		height: 385px;
+	}
+	
+	/* descricao */
+	.desc-wrapper{
+		margin-left: 15px;
+		margin-top: -185px;
+		font-size: 13.3px;
+	}
+
+	/* link inscricao */
+	.insc-wrapper{
+		font-size: 15px;
+		margin-top: -30px;
+	}
+
+	/* publico */
+	.publico-wrapper{
+		margin-top: -67px;
+		font-size: 15px;
+	}
+
+	/* horarios */
+	.horarios-wrapper{
+		margin-top: -160px;
+		font-size: 15px;
+	}
+	.horarios-wrapper .content.horas{
+		font-size: 42px;
+		line-height: 41px;
+	}
+	.horarios-wrapper .content.semanas{
+		font-size: 21px;
+		line-height: 16px;
+	}
+
+	/*=== módulos ===*/
+	
+	/* descricao mod */
+	.mod-wrapper{
+		padding-right: 75px;
+	}
+	.mod-wrapper.invert{
+		padding-right: 0px;
+		margin-top: -750px;
+	}
+	.mod-wrapper.after-invert{
+		padding-right: 0px;
+		margin-top: -160px;
+	}
+
+	/* titulo mod */
+	.mod-titulo{
+		font-size: 26px;
+		line-height: 28px;
+	}
+
+	/* quadro de horas */
+	.quadro-wrapper.invert{
+		margin-top: -420px;
+	}
+	.quadro-horas-img{
+		width: 185px;
+		height: 295px;
+	}
+	.after .quadro-horas-img{
+		margin-top: -210px;
+	}
+	.quadro-horas-txt{
+		padding-right: 27px;
+	}
+	.quadro-horas-txt .horas{
+		font-size: 36px;
+		line-height: 36px;
+	}
+	.quadro-horas-txt .legenda{
+		font-size: 7px;
+	}	
+
+	/* datas */
+	.datas-wrapper{
+		font-size: 50px;
+		margin-top: 190px;
+		margin-left: 10px;
+		line-height: 50px;
+	}
+	.datas-wrapper.invert{
+		margin-top: -815px;
+		margin-right: 15px;
+	}
+	.datas-wrapper.after-invert{
+		margin-right: 15px;
+		margin-top: 210px;
+	}
+
+
+	/*=== realizadores ===*/
+	.realizador-images{
+		margin-top: -110px;
+	}
+}
+@media only screen and (max-width: 1199px){
+	.container-inner{
+		width: 950px;
+	}
+	section, article{
+		height: 770px;
+	}
+	section{
+		margin-bottom: 135px;
+	}
+	section.invert{
+		margin-bottom: 0px;
+	}
+
+	/*=== home ===*//* titulo */
+	.title-wrapper{
+		font-size: 17px;
+		line-height: 32px;
+	}
+	.title-wrapper .bigger{
+		font-size: 25px;
+	}
+	.title-wrapper .em{
+		top: -5px;
+		padding: 0px 28px 0px 60px;
+	}
+	.line-height{
+		height: 325px;
+	}
+
+	/* horarios */
+	.horarios-wrapper .horario{
+		width: 100px;
+	}
+
+	/*=== módulos ===*/
+	.mod-wrapper{
+		margin-top: -205px;
+		padding-right: 0px;
+	}
+	.mod-wrapper.invert{
+		margin-top: -810px;
+	}
+	.mod-wrapper.after-invert{
+		margin-top: -260px;
+	}
+
+	/* quadro de horariso */
+	.quadro-horas-img{
+		width: 155px;
+		height: 250px;
+	}
+	.invert.quadro-wrapper{
+		margin-top: -475px;
+	}
+	.after .quadro-horas-img{
+		margin-top: -310px;
+	}
+
+	/* datas */
+	.datas-wrapper{
+		font-size: 42px;
+		margin-top: 150px;
+		line-height: 43px;
+	}
+	.datas-wrapper.invert{
+		margin-top: -880px;
+	}
+	.datas-wrapper.after-invert{
+		margin-top: 180px;
+	}
+
+	/*=== realizadores ===*/
+	.realizador-images{
+		margin-top: -270px;
+	}
+}
+@media only screen and (max-width: 991px){
+	.container-inner{
+		width: 730px;
+	}
+	section{
+		height: 770px;
+		margin-bottom: 30px;
+	}
+	section.invert{
+		height: 1400px;
+	}
+	article{
+		height: 615px;
+	}
+
+	/*=== home ===*/
+	.logo img{
+		margin: 20px 0px 0px 5px;
+		width: 185px;
+	}
+
+	/* titulo */
+	.title-wrapper{
+		font-size: 12px;
+		line-height: 23px;
+		transform: translate(-50%, -15%);
+	}
+	.title-wrapper .bigger{
+		font-size: 20px;
+		letter-spacing: 8px;
+	}
+	.line-height{
+		height: 285px;
+	}
+
+	/* descricao */
+	.desc-wrapper{
+		font-size: 10px;
+		padding-right: 45px;
+		margin-top: -190px;
+		margin-left: 10px;
+	}
+
+	/* inscricao */
+	.insc-wrapper{
+		font-size: 10px;
+		margin-top: -92px;
+	}
+
+	/* publico */
+	.publico-wrapper{
+		margin-top: -115px;
+		font-size: 10px;
+	}
+	/* horario */
+	.horarios-wrapper{
+		margin-top: -168px;
+		font-size: 10px;
+	}
+	.horarios-wrapper .tempo{
+		margin-left: -12px;
+	}
+	.horarios-wrapper .content.horas{
+		font-size: 28px;
+		line-height: 23px;
+	}
+	.horarios-wrapper .content.semanas{
+		font-size: 14px;
+		line-height: 10px;
+	}
+	.horarios-wrapper .divider{
+		border-bottom: 1px solid grey;
+		width: 100%;
+		margin: 10px auto;
+	}
+
+	/*=== modulos ===*/
+	.mod-wrapper{
+		margin-top: -285px;
+	}
+	.mod-wrapper.invert{
+		margin-top: -935px;
+	}
+	.mod-wrapper.after-invert{
+		margin-top: -350px;
+	}
+	.mod-wrapper .divider{
+		border-bottom: 2px solid grey;
+		width: 70%;
+		margin: 20px auto;
+	}
+	/* modulo titulo */
+	.mod-titulo{
+		font-size: 24px;
+		line-height: 26px;
+	}
+
+	/* quadro de horarios */
+	.quadro-wrapper.invert{
+		margin-top: -570px;
+	}
+	.after .quadro-horas-img{
+		margin-top: -370px;
+	}
+
+	/* datas */
+	.datas-wrapper{
+		font-size: 28px;
+		margin-top: 126px;
+		line-height: 30px;
+	}
+	.datas-wrapper.invert{
+		margin-top: -1015px;
+	}
+	.datas-wrapper.after-invert{
+		margin-top: 140px;
+	}
+}
+@media only screen and (max-width: 767px){
+	.container-inner{
+		width: 460px;
+	}
+	section.invert,section.after-invert{
+		padding-top: 340px;
+	}
+	/*=== home ===*/
+	.logo img{
+		width: 160px;
+		margin: 15px 0px 0px 5px;
+	}
+
+	/* titulo */
+	.title-wrapper{
+		transform: translate(-50%, 25%);
+	}
+	.line-height{
+		height: 165px;
+	}
+	
+	/* descricao */
+	.desc-wrapper{
+		margin-top: 155px;
+		padding: 0px 25px;
+		color: grey;
+		font-size: 12px;
+		margin-left: 0px;
+	}
+
+	/* inscricao */
+	.insc-wrapper{
+		margin-top: 15px;
+	}
+
+	/* publico */
+	.publico-wrapper{
+		margin-top: 21px;
+	}
+
+	/* horarios */
+	.horarios-wrapper{
+		margin-top: 28px;
+	}
+	.horarios-wrapper .tempo.mobile{
+		margin-top: -13px;
+	}
+
+
+	/*=== modulos ===*/
+	.mod-wrapper{
+		font-size: 13px;
+		padding: 0px 25px;
+		margin-top: -220px;
+	}
+	.mod-wrapper.invert{
+		margin-top: -830px;
+		margin-left: 0px;
+		padding: 0px 25px;
+	}
+	.mod-wrapper.after-invert{
+		margin-top: -300px;
+		margin-left: 0px;
+		padding: 0px 25px;
+	}
+	.mod-wrapper .divider{
+		width: 100%;
+	}
+
+	/* mod titulo */
+	.mod-titulo{
+		font-size: 21px;
+		line-height: 22px;
+	}
+	
+	/* datas */
+	.datas-wrapper{
+		color: grey;
+		margin-top: -255px;
+		margin-left: 25px;
+		font-size: 18px;
+		line-height: 20px;
+	}
+	.datas-wrapper.invert{
+		margin-top: -865px;
+		margin-right: 25px;
+	}
+	.datas-wrapper.after-invert{
+		margin-top: -335px;
+		margin-right: 25px;
+	}
+
+	/* quadro horario */
+	.quadro-wrapper.invert{
+		margin-top: -475px;
+	}
+	.quadro-wrapper.invert.custom{
+		margin-top: 350px;
+	}
+	.quadro-wrapper .quadro-horas-txt{
+		line-height: 8px;
+	}
+	.quadro-wrapper.invert .quadro-horas-txt{
+		padding-left: 10px;
+	}
+	.quadro-horas-txt{
+		padding-right: 10px;
+	}
+	.quadro-horas-txt .horas{
+		font-size: 28px;
+		line-height: 28px;
+		padding-left: 2px;
+	}
+	.quadro-horas-img{
+		width: 115px;
+		height: 183px;
+	}
+	.after .quadro-horas-img{
+		margin-top: -385px;
+	}
+
+	/*=== realizadores ===*/
+	.realizador-images{
+		margin-top: -35px;
+	}	
+}
+@media only screen and (max-width: 479px){
+	.container-inner{
+		width: 320px;
+	}
+	article{
+		height: 488px;
+	}
+	section.invert,section.after-invert{
+		padding-top: 365px;
+	}
+	section.invert{
+		height: 1450px;
+	}
+
+	/*=== home ===*/
+	.logo img{
+		width: 105px;
+	}
+
+	/* titulo */
+	.title-wrapper .bigger{
+		letter-spacing: 6px;
+	}
+
+	/* descricao */
+	.desc-wrapper{
+		margin-top: 90px;
+	}
+
+	/* publico */
+	.publico-wrapper{
+		padding-left: 40px;
+	}
+
+	/*=== modulos ===*/
+	.mod-wrapper{
+		margin-top: -370px;
+	}
+	.mod-wrapper.invert{
+		margin-top: -1005px;
+	}
+	.mod-wrapper.after-invert{
+		margin-top: -445px;
+	}
+	.mod-titulo{
+		font-size: 18px;
+		line-height: 19px;
+	}
+
+	/* datas */
+	.datas-wrapper{
+		margin-top: -400px;
+	}
+	.datas-wrapper.invert{
+		margin-top: -1040px;
+	}
+	.datas-wrapper.after-invert{
+		margin-top: -480px;
+	}
+
+	/* quadro de horas */	
+	.quadro-wrapper.invert{
+		margin-top: -545px;
+	}
+	.quadro-wrapper.invert.custom{
+		margin-top: 450px;
+	}
+	.quadro-horas-img{
+		width: 80px;
+		height: 130px;
+	}
+	.after .quadro-horas-img{
+		margin-top: -485px;
+	}
+	.quadro-wrapper .quadro-horas-txt{
+		line-height: 4px;
+	}
+	.quadro-wrapper.invert .quadro-horas-txt{
+		padding-left: 5px;
+	}
+	.quadro-horas-txt{
+		padding-right: 5px;
+	}
+	.quadro-horas-txt .horas{
+		font-size: 23px;
+		padding-left: 1px;
+	}
+	.quadro-horas-txt .legenda{
+		font-size: 5px;
+	}
+	
+	/*=== realizadores ===*/
+	.realizador-images img{
+		height: 50px;
+		margin: 15px;
+	}
+}
