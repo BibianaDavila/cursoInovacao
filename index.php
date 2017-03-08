@@ -9,8 +9,6 @@
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-		<script src="js/bootstrap.js" type="text/javascript"></script>
 	</head>
 
 	<body>
@@ -62,7 +60,10 @@
 							<!--=== inscricoes ===-->
 							<div class="col-md-4 col-sm-3 col-xs-12">
 								<div class="insc-wrapper">
-									<p><a href="">Edital de Seleção ></a></p>
+									<p><a href="http://www.ufrgs.br/obec/inovacao/files/termoDeReferencia.pdf" target="_blank">Termo de Referência ></a></p>
+									<p><a href="http://www.ufrgs.br/obec/inovacao/files/CEGOV_2017_RETIFICACAO_01%20-_TERMO_REFERENCIA_CURSO_INOVACAO(MAR%2003).pdf" target="_blank">RETIFICAÇÃO 01 ></a></p>
+
+									<br/>
 									<p><a href="https://form.jotformz.com/70385085491663" target="_blank">Inscrições ></a></p>
 								</div>
 							</div>
@@ -213,7 +214,7 @@
 									<br/>
 
 									<div class="light text-right">
-										Instrutores: Prof. Dr. François Moreau (FRA) e<br/>representante games (Virgo Games)
+										Prof. Dr. François Moreau (Université Paris 13)<br/> e Samira Almeida (Storymax Games)
 									</div>
 
 								</div>
@@ -266,7 +267,7 @@
 
 									<p>Conteúdo: O terceiro módulo apresentará o conceito de inovação em processos, localizando-o no ambiente enfrentado por empreendimentos criativos.</p>
 									
-									<p>Além disso, atenta-se para a articulação desses empreendimentos entre si e com seus respectivos territórios, modormando territórios criativos. </p>
+									<p>Além disso, atenta-se para a articulação desses empreendimentos entre si e com seus respectivos territórios, conformando territórios criativos.</p>
 
 									<p> Nesse sentido, serão expostos exemplos nacionais e internacionais de territórios criativos, bem como instrumentos de políticas públicas, como a criação de incubadoras criativas, a serem utilizadas para o fomento de tais iniciativas. </p>
 
@@ -318,7 +319,7 @@
 							<!-- datas -->
 							<div class="col-lg-6 col-md-4 col-sm-3 col-xs-12">
 								<div class="datas-wrapper">
-									<span class="bold">05</span> E <span class="bold">06</span><br/>
+									<span class="bold">03</span> E <span class="bold">04</span><br/>
 									DE ABRIL<br class="hidden-xs"/>
 									DE 2017<br/>
 								</div>
@@ -345,7 +346,7 @@
 									<br/>
 
 									<div class="light text-right">
-										Instrutores: Prof. Dr. Pau Rausel Köster (ESP)
+										Instrutores: Prof. Dr. Pau Rausell Köster (Universitat de València)
 									</div>
 
 								</div>
@@ -386,8 +387,10 @@
 									<br/>
 
 									<div class="light text-right">
-										Instrutores: Claudio Vasconcelos <br/>e Criatiano Braga (APEX).
+										Instrutores: Claudio Vasconcelos <br/>e Cristiano Braga (APEX)
 									</div>
+
+									
 
 								</div>
 							</div>
@@ -477,6 +480,10 @@
 					<img src="image/realizadores/brasil.png">							
 				</div>
 			</div>
+
+
+			<script async src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+			<script async src="js/bootstrap.min.js" type="text/javascript"></script>
 
 		</div>
 	</body>
