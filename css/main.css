@@ -118,9 +118,10 @@ article{
 .insc-wrapper{
 	text-align: center;
 	text-transform: uppercase;
-	margin-top: 190px;	
 	font-size: 18px;
 	letter-spacing: 2px;
+	margin-left: 170px;
+	margin-top: 130px;
 }
 
 /*=== Público Alvo ===*/
@@ -307,8 +308,10 @@ article{
 
 	/* link inscricao */
 	.insc-wrapper{
-		font-size: 15px;
-		margin-top: -30px;
+		font-size: 14px;
+		line-height: 10PX;
+		margin-top: -44px;
+		margin-left: 76PX;
 	}
 
 	/* publico */
@@ -519,7 +522,9 @@ article{
 	/* inscricao */
 	.insc-wrapper{
 		font-size: 10px;
-		margin-top: -92px;
+		margin-left: 41PX;
+		margin-top: -100px;
+		line-height: 12PX;
 	}
 
 	/* publico */
@@ -623,12 +628,13 @@ article{
 
 	/* inscricao */
 	.insc-wrapper{
-		margin-top: 15px;
+		margin: 15px 0px;
 	}
 
 	/* publico */
 	.publico-wrapper{
 		margin-top: 21px;
+		padding-left: 25px;
 	}
 
 	/* horarios */
